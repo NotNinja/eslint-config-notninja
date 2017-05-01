@@ -280,7 +280,7 @@ module.exports = {
       'error',
       'always'
     ],
-    'sort-keys': 'off'
+    'sort-keys': 'off',
     'sort-vars': 'off',
     'space-before-blocks': 'error',
     'space-before-function-paren': [
