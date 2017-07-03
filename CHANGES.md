@@ -1,3 +1,7 @@
+## Version 0.2.2, 2017.07.03
+
+* Disable `no-magic-numbers` rule again
+
 ## Version 0.2.1, 2017.07.03
 
 * Fix incorrect value type for `max-statements-per-line` rule
