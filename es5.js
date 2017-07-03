@@ -91,7 +91,7 @@ module.exports = {
     'no-case-declarations': 'error',
     'no-div-regex': 'error',
     'no-else-return': 'warn',
-    'no-empty-function': 'warn',
+    'no-empty-function': 'off',
     'no-eq-null': 'off',
     'no-eval': 'error',
     'no-extend-native': 'error',
@@ -152,8 +152,18 @@ module.exports = {
     'no-undef': 'error',
     'no-undef-init': 'error',
     'no-undefined': 'error',
-    'no-unused-vars': 'warn',
-    'no-use-before-define': 'error',
+    'no-unused-vars': [
+      'warn',
+      {
+        'args': 'none'
+      }
+    ],
+    'no-use-before-define': [
+      'error',
+      {
+        'functions': false
+      }
+    ],
 
     'callback-return': 'warn',
     'global-require': 'error',
@@ -237,7 +247,7 @@ module.exports = {
     ],
     'max-params': [
       'error',
-      3
+      5
     ],
     'max-statements': 'off',
     'max-statements-per-line': [
@@ -249,7 +259,7 @@ module.exports = {
     'new-parens': 'error',
     'newline-per-chained-call': 'off',
     'no-array-constructor': 'error',
-    'no-bitwise': 'error',
+    'no-bitwise': 'warn',
     'no-continue': 'off',
     'no-inline-comments': 'error',
     'no-lonely-if': 'error',
