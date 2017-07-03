@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-notninja",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Standard ESLint configurations for !ninja packages",
   "homepage": "https://github.com/NotNinja/eslint-config-notninja",
   "bugs": {

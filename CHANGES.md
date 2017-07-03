@@ -1,3 +1,7 @@
+## Version 0.2.1, 2017.07.03
+
+* Fix incorrect value type for `max-statements-per-line` rule
+
 ## Version 0.2.0, 2017.07.03
 
 * Add missing rules as of ESLint 4
