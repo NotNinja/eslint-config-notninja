@@ -108,7 +108,7 @@ module.exports = {
     'no-labels': 'error',
     'no-lone-blocks': 'error',
     'no-loop-func': 'error',
-    'no-magic-numbers': 'warn',
+    'no-magic-numbers': 'off',
     'no-multi-spaces': 'error',
     'no-multi-str': 'error',
     'no-new': 'error',
