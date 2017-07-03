@@ -27,6 +27,8 @@ module.exports = {
     ecmaVersion: 5
   },
   rules: {
+    'for-direction': 'error',
+    'no-compare-neg-zero': 'error',
     'no-cond-assign': 'error',
     'no-console': 'error',
     'no-constant-condition': 'error',
@@ -35,8 +37,8 @@ module.exports = {
     'no-dupe-args': 'error',
     'no-dupe-keys': 'error',
     'no-duplicate-case': 'error',
-    'no-empty-character-class': 'error',
     'no-empty': 'error',
+    'no-empty-character-class': 'error',
     'no-ex-assign': 'error',
     'no-extra-boolean-cast': 'error',
     'no-extra-parens': [
@@ -90,7 +92,6 @@ module.exports = {
     'no-div-regex': 'error',
     'no-else-return': 'warn',
     'no-empty-function': 'warn',
-    'no-empty-pattern': 'error',
     'no-eq-null': 'off',
     'no-eval': 'error',
     'no-extend-native': 'error',
@@ -107,14 +108,14 @@ module.exports = {
     'no-labels': 'error',
     'no-lone-blocks': 'error',
     'no-loop-func': 'error',
-    'no-magic-numbers': 'off',
+    'no-magic-numbers': 'warn',
     'no-multi-spaces': 'error',
     'no-multi-str': 'error',
+    'no-new': 'error',
     'no-new-func': 'error',
     'no-new-wrappers': 'error',
-    'no-new': 'error',
-    'no-octal-escape': 'error',
     'no-octal': 'error',
+    'no-octal-escape': 'error',
     'no-param-reassign': 'off',
     'no-proto': 'error',
     'no-redeclare': 'error',
@@ -130,6 +131,7 @@ module.exports = {
     'no-useless-call': 'error',
     'no-useless-concat': 'error',
     'no-useless-escape': 'error',
+    'no-useless-return': 'error',
     'no-void': 'error',
     'no-warning-comments': 'warn',
     'no-with': 'error',
@@ -145,10 +147,10 @@ module.exports = {
     'no-delete-var': 'error',
     'no-label-var': 'error',
     'no-restricted-globals': 'error',
-    'no-shadow-restricted-names': 'error',
     'no-shadow': 'error',
-    'no-undef-init': 'error',
+    'no-shadow-restricted-names': 'error',
     'no-undef': 'error',
+    'no-undef-init': 'error',
     'no-undefined': 'error',
     'no-unused-vars': 'warn',
     'no-use-before-define': 'error',
@@ -156,6 +158,7 @@ module.exports = {
     'callback-return': 'warn',
     'global-require': 'error',
     'handle-callback-err': 'warn',
+    'no-buffer-constructor': 'error',
     'no-mixed-requires': 'warn',
     'no-new-require': 'error',
     'no-path-concat': 'error',
@@ -164,13 +167,26 @@ module.exports = {
     'no-restricted-modules': 'off',
     'no-sync': 'off',
 
+    'array-bracket-newline': [
+      'error',
+      {
+        'multiline': true
+      }
+    ],
     'array-bracket-spacing': [
       'error',
       'always'
     ],
+    'array-element-newline': [
+      'error',
+      {
+        'multiline': true
+      }
+    ],
     'block-spacing': 'error',
     'brace-style': 'error',
     'camelcase': 'error',
+    'capitalized-comments': 'error',
     'comma-dangle': 'error',
     'comma-spacing': 'error',
     'comma-style': 'error',
@@ -197,6 +213,12 @@ module.exports = {
     'jsx-quotes': 'error',
     'key-spacing': 'error',
     'keyword-spacing': 'error',
+    'line-comment-position': [
+      'error',
+      {
+        'position': 'above'
+      }
+    ],
     'linebreak-style': [
       'error',
       'unix'
@@ -209,15 +231,22 @@ module.exports = {
       2
     ],
     'max-lines': 'off',
-    'max-nested-callbacks': 'error',
-    'max-params': 'error',
-    'max-statements-per-line': 'error',
+    'max-nested-callbacks': [
+      'error',
+      10
+    ],
+    'max-params': [
+      'error',
+      3
+    ],
     'max-statements': 'off',
+    'max-statements-per-line': [
+      'error',
+      1
+    ],
     'multiline-ternary': 'off',
     'new-cap': 'error',
     'new-parens': 'error',
-    'newline-after-var': 'off',
-    'newline-before-return': 'off',
     'newline-per-chained-call': 'off',
     'no-array-constructor': 'error',
     'no-bitwise': 'error',
@@ -226,6 +255,7 @@ module.exports = {
     'no-lonely-if': 'error',
     'no-mixed-operators': 'warn',
     'no-mixed-spaces-and-tabs': 'error',
+    'no-multi-assign': 'error',
     'no-multiple-empty-lines': 'error',
     'no-negated-condition': 'off',
     'no-nested-ternary': 'warn',
@@ -238,6 +268,10 @@ module.exports = {
     'no-underscore-dangle': 'off',
     'no-unneeded-ternary': 'error',
     'no-whitespace-before-property': 'error',
+    'nonblock-statement-body-position': [
+      'error',
+      'below'
+    ],
     'object-curly-newline': [
       'error',
       {
@@ -249,13 +283,13 @@ module.exports = {
       'always'
     ],
     'object-property-newline': 'off',
-    'one-var-declaration-per-line': 'error',
     'one-var': [
       'error',
       {
         'initialized': 'never'
       }
     ],
+    'one-var-declaration-per-line': 'error',
     'operator-assignment': 'warn',
     'operator-linebreak': 'error',
     'padded-blocks': [
@@ -266,6 +300,7 @@ module.exports = {
         'switches': 'never'
       }
     ],
+    'padding-line-between-statements': 'off',
     'quote-props': [
       'error',
       'consistent-as-needed'
@@ -275,10 +310,14 @@ module.exports = {
       'single'
     ],
     'require-jsdoc': 'off',
-    'semi-spacing': 'error',
     'semi': [
       'error',
       'always'
+    ],
+    'semi-spacing': 'error',
+    'semi-style': [
+      'error',
+      'last'
     ],
     'sort-keys': 'off',
     'sort-vars': 'off',
@@ -291,6 +330,7 @@ module.exports = {
     'space-infix-ops': 'error',
     'space-unary-ops': 'error',
     'spaced-comment': 'error',
+    'switch-colon-spacing': 'error',
     'unicode-bom': 'error',
     'wrap-regex': 'off'
   }

@@ -31,6 +31,14 @@ module.exports = {
     ecmaVersion: 6
   },
   rules: {
+    'class-methods-use-this': 'warn',
+    'no-empty-pattern': 'error',
+    'prefer-promise-reject-errors': 'error',
+    'template-tag-spacing': [
+      'error',
+      'never'
+    ],
+
     'arrow-body-style': 'off',
     'arrow-parens': [
       'error',
@@ -54,7 +62,8 @@ module.exports = {
     'object-shorthand': 'warn',
     'prefer-arrow-callback': 'warn',
     'prefer-const': 'warn',
-    'prefer-reflect': 'off',
+    'prefer-destructuring': 'off',
+    'prefer-numeric-literals': 'warn',
     'prefer-rest-params': 'warn',
     'prefer-spread': 'warn',
     'prefer-template': 'error',

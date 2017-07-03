@@ -33,8 +33,15 @@ Create an ESLint configuration file within your package that extends this config
 }
 ```
 
-This will import the ECMAScript 5 configuration by default. This can also be done by extending `"notninja/es5"`. For
-ECMAScript 6 packages, please extend `"notninja/es6"` instead.
+This will extend the ECMAScript 5 configuration by default, but you can extend other ECMAScript versions by using the
+following:
+
+| ECMAScript Version | Value                            |
+| ------------------ | -------------------------------- |
+| 5                  | `"notninja"` or `"notninja/es5"` |
+| 6 (2015)           | `"notninja/es6"`                 |
+| 7 (2016)           | `"notninja/es7"`                 |
+| 8 (2017)           | `"notninja/es8"`                 |
 
 ## Bugs
 
