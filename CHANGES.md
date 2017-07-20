@@ -1,3 +1,10 @@
+## Version 0.2.3, 2017.07.20
+
+* Disable `array-bracket-newline` rule
+* Disable `array-element-newline` rule
+* Disable `class-methods-use-this` rule
+* Disable `object-curly-newline` rule
+
 ## Version 0.2.2, 2017.07.03
 
 * Disable `no-magic-numbers` rule again

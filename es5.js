@@ -177,22 +177,12 @@ module.exports = {
     'no-restricted-modules': 'off',
     'no-sync': 'off',
 
-    'array-bracket-newline': [
-      'error',
-      {
-        'multiline': true
-      }
-    ],
+    'array-bracket-newline': 'off',
     'array-bracket-spacing': [
       'error',
       'always'
     ],
-    'array-element-newline': [
-      'error',
-      {
-        'multiline': true
-      }
-    ],
+    'array-element-newline': 'off',
     'block-spacing': 'error',
     'brace-style': 'error',
     'camelcase': 'error',
@@ -284,12 +274,7 @@ module.exports = {
       'error',
       'below'
     ],
-    'object-curly-newline': [
-      'error',
-      {
-        'multiline': true
-      }
-    ],
+    'object-curly-newline': 'off',
     'object-curly-spacing': [
       'error',
       'always'
