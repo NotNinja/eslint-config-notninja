@@ -1,3 +1,9 @@
+## Version 0.2.4, 2018.05.03
+
+* Simplify how default configuration is managed
+* Add configuration for ECMAScript 9 (2018)
+* Add configurations for each ECMAScript version for ECMAScript modules
+
 ## Version 0.2.3, 2017.07.20
 
 * Disable `array-bracket-newline` rule
