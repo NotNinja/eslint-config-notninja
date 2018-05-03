@@ -14,7 +14,7 @@
   "license": "MIT",
   "keywords": [
     "eslint",
-    "config",
+    "eslintconfig",
     "notninja"
   ],
   "repository": {
