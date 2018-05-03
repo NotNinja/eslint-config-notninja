@@ -46,6 +46,9 @@ type for any version, if desired.
 | 8 (2017)           | `"notninja/es8"` | `"notninja/esm8"` |
 | 9 (2018)           | `"notninja/es9"` | `"notninja/esm9"` |
 
+By design, all rules that are specific to !ninja are applied on top of the
+[eslint:recommended](https://eslint.org/docs/user-guide/configuring#using-eslintrecommended) configuration.
+
 ## Bugs
 
 If you have any problems or would like to see changes currently in development you can do so

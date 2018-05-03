@@ -1,3 +1,7 @@
+## Version 0.3.0, 2018.05.03
+
+* Reset all rules and start fresh by extending the `eslint:recommended` configuration (**breaking change**)
+
 ## Version 0.2.4, 2018.05.03
 
 * Simplify how default configuration is managed

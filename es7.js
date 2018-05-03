@@ -26,5 +26,8 @@ module.exports = {
   extends: './es6.js',
   parserOptions: {
     ecmaVersion: 7
+  },
+  rules: {
+    // ECMAScript 7 (2016) rules for !ninja can be found below
   }
 };

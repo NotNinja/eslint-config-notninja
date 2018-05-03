@@ -26,5 +26,8 @@ module.exports = {
   extends: './es8.js',
   parserOptions: {
     ecmaVersion: 9
+  },
+  rules: {
+    // ECMAScript 9 (2018) rules for !ninja can be found below
   }
 };
