@@ -42,6 +42,7 @@ This will extend the ECMAScript 5 configuration by default, but you can extend o
 | 6 (2015)           | `"notninja/es6"` |
 | 7 (2016)           | `"notninja/es7"` |
 | 8 (2017)           | `"notninja/es8"` |
+| 9 (2018)           | `"notninja/es9"` |
 
 ## Bugs
 
