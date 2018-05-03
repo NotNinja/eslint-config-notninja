@@ -33,16 +33,18 @@ Create an ESLint configuration file within your package that extends this config
 }
 ```
 
-This will extend the ECMAScript 5 configuration by default, but you can extend other ECMAScript versions as well.
+This will extend the ECMAScript 5 configuration by default, but you can extend other ECMAScript versions as well. You
+also have the option of using either the script (i.e. normal) or ECMAScript modules (e.g `import foo from 'foo'`) source
+type for any version, if desired.
 
-| ECMAScript Version | Value            |
-| ------------------ | ---------------- |
-| Default (5)        | `"notninja"`     |
-| 5                  | `"notninja/es5"` |
-| 6 (2015)           | `"notninja/es6"` |
-| 7 (2016)           | `"notninja/es7"` |
-| 8 (2017)           | `"notninja/es8"` |
-| 9 (2018)           | `"notninja/es9"` |
+| ECMAScript Version | Script           | ECMAScript Module |
+| ------------------ | ---------------- | ----------------- |
+| Default (5)        | `"notninja"`     | `"notninja/esm"`  |
+| 5                  | `"notninja/es5"` | `"notninja/esm5"` |
+| 6 (2015)           | `"notninja/es6"` | `"notninja/esm6"` |
+| 7 (2016)           | `"notninja/es7"` | `"notninja/esm7"` |
+| 8 (2017)           | `"notninja/es8"` | `"notninja/esm8"` |
+| 9 (2018)           | `"notninja/es9"` | `"notninja/esm9"` |
 
 ## Bugs
 
