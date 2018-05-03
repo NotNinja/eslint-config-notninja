@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-notninja",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Standard ESLint configurations for !ninja packages",
   "homepage": "https://github.com/NotNinja/eslint-config-notninja",
   "bugs": {
@@ -14,12 +14,12 @@
   "license": "MIT",
   "keywords": [
     "eslint",
-    "config",
+    "eslintconfig",
     "notninja"
   ],
   "repository": {
     "type": "git",
     "url": "https://github.com/NotNinja/eslint-config-notninja.git"
   },
-  "main": "es5.js"
+  "main": "es.js"
 }

@@ -23,8 +23,8 @@
 'use strict';
 
 module.exports = {
-  extends: './es6.js',
+  extends: './es8.js',
   parserOptions: {
-    ecmaVersion: 7
+    ecmaVersion: 9
   }
 };
