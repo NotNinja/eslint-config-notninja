@@ -31,47 +31,6 @@ module.exports = {
     ecmaVersion: 6
   },
   rules: {
-    'class-methods-use-this': 'off',
-    'no-empty-pattern': 'error',
-    'prefer-promise-reject-errors': 'error',
-    'template-tag-spacing': [
-      'error',
-      'never'
-    ],
-
-    'arrow-body-style': 'off',
-    'arrow-parens': [
-      'error',
-      'always'
-    ],
-    'arrow-spacing': 'error',
-    'constructor-super': 'warn',
-    'generator-star-spacing': 'error',
-    'no-class-assign': 'error',
-    'no-confusing-arrow': 'error',
-    'no-const-assign': 'error',
-    'no-dupe-class-members': 'error',
-    'no-duplicate-imports': 'error',
-    'no-new-symbol': 'error',
-    'no-restricted-imports': 'off',
-    'no-this-before-super': 'error',
-    'no-useless-computed-key': 'error',
-    'no-useless-constructor': 'warn',
-    'no-useless-rename': 'error',
-    'no-var': 'error',
-    'object-shorthand': 'warn',
-    'prefer-arrow-callback': 'warn',
-    'prefer-const': 'warn',
-    'prefer-destructuring': 'off',
-    'prefer-numeric-literals': 'warn',
-    'prefer-rest-params': 'warn',
-    'prefer-spread': 'warn',
-    'prefer-template': 'error',
-    'require-yield': 'error',
-    'rest-spread-spacing': 'error',
-    'sort-imports': 'off',
-    'symbol-description': 'warn',
-    'template-curly-spacing': 'error',
-    'yield-star-spacing': 'error'
+    // ECMAScript 6 (2015) rules for !ninja can be found below
   }
 };

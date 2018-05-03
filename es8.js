@@ -28,9 +28,6 @@ module.exports = {
     ecmaVersion: 8
   },
   rules: {
-    'no-await-in-loop': 'error',
-
-    'no-return-await': 'error',
-    'require-await': 'error'
+    // ECMAScript 8 (2017) rules for !ninja can be found below
   }
 };
