@@ -21,5 +21,5 @@
     "type": "git",
     "url": "https://github.com/NotNinja/eslint-config-notninja.git"
   },
-  "main": "es5.js"
+  "main": "es.js"
 }
