@@ -1,3 +1,7 @@
+## Version 0.4.0, 2018.11.08
+
+* Enable `semi`, `semi-spacing`, and `semi-style` rules at ERROR level (**breaking change**)
+
 ## Version 0.3.0, 2018.05.03
 
 * Reset all rules and start fresh by extending the `eslint:recommended` configuration (**breaking change**)
