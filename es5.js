@@ -29,5 +29,20 @@ module.exports = {
   },
   rules: {
     // ECMAScript 5 rules for !ninja can be found below
+    "semi": [
+      "error",
+      "always"
+    ],
+    "semi-spacing": [
+      "error",
+      {
+        "before": false,
+        "after": true
+      }
+    ],
+    "semi-style": [
+      "error",
+      "last"
+    ]
   }
 };
